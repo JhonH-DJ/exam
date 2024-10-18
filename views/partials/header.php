@@ -3,14 +3,14 @@
     <div class="carousel-inner">
         <!-- 1RA IMAGEN DEL CARUSEL -->
         <div class="carousel-item active">
-            <img src="resources/img/banner.png" style="width: 100%" alt="...">
+            <img src="<?php echo asset('/resources/img/baner.webp')?>" style="width: 100%" alt="...">
         </div>
     </div>
 </div>
 <!-- CREAMOS EL NAVBAR -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <!-- LOGO DE LA PAGINA -->
-    <a class="navbar-brand" href="#"><img src="resources/img/logoapp.png" width="80" height="80" alt=""></a>
+    <a class="navbar-brand" href="<?php echo asset('/views/principal.php')?>"><img src="<?php echo asset('/resources/img/logoapp.png')?>" width="80" height="80" alt=""></a>
     <!-- MENU DE NAVEGACION -->
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">

@@ -45,7 +45,7 @@ $clientes = [
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exámen Final | Ejercicio03</title>
-    <link rel="stylesheet" href="resources/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php echo asset('/resources/css/bootstrap.min.css')?>">
     <?php include_once 'partials/css.php'; ?>
 </head>
 
